@@ -1,0 +1,30 @@
+[
+  {
+    "kan": "一",
+    "hir": "いち",
+    "rom": "ichi",
+    "eng": "one",
+    "spa": "uno"
+  },
+  {
+    "kan": "二",
+    "hir": "に",
+    "rom": "ni",
+    "eng": "two",
+    "spa": "dos"
+  },
+  {
+    "kan": "三",
+    "hir": "さん",
+    "rom": "san",
+    "eng": "three",
+    "spa": "tres"
+  },
+  {
+    "kan": "四",
+    "hir": "し",
+    "rom": "shi",
+    "eng": "four",
+    "spa": "cuatro"
+  }
+]

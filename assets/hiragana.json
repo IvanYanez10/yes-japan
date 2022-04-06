@@ -1,0 +1,286 @@
+[
+	{
+		"name": "n",
+		"unicode": "\u3093"
+	},
+	{
+		"name": "a",
+		"unicode": "3042"
+	},
+	{
+		"name": "ka",
+		"unicode": "304B"
+	},
+	{
+		"name": "sa",
+		"unicode": "3055"
+	},
+	{
+		"name": "ta",
+		"unicode": "305F"
+	},
+	{
+		"name": "na",
+		"unicode": "306A"
+	},
+	{
+		"name": "ha",
+		"unicode": "306F"
+	},
+	{
+		"name": "ma",
+		"unicode": "307E"
+	},
+	{
+		"name": "ya",
+		"unicode": "3084"
+	},
+	{
+		"name": "ra",
+		"unicode": "3089"
+	},
+	{
+		"name": "wa",
+		"unicode": "308F"
+	},
+	{
+		"name": "ga",
+		"unicode": "304C"
+	},
+	{
+		"name": "za",
+		"unicode": "3056"
+	},
+	{
+		"name": "da",
+		"unicode": "3060"
+	},
+	{
+		"name": "ba",
+		"unicode": "3070"
+	},
+	{
+		"name": "pa",
+		"unicode": "3071"
+	},
+	{
+		"name": "i",
+		"unicode": "3044"
+	},
+	{
+		"name": "ki",
+		"unicode": "304D"
+	},
+	{
+		"name": "shi",
+		"unicode": "3057"
+	},
+	{
+		"name": "chi",
+		"unicode": "3061"
+	},
+	{
+		"name": "ni",
+		"unicode": "306B"
+	},
+	{
+		"name": "hi",
+		"unicode": "3072"
+	},
+	{
+		"name": "mi",
+		"unicode": "307F"
+	},
+	{
+		"name": "ri",
+		"unicode": "308A"
+	},
+	{
+		"name": "gi",
+		"unicode": "304E"
+	},
+	{
+		"name": "zi",
+		"unicode": "3058"
+	},
+	{
+		"name": "di",
+		"unicode": "3062"
+	},
+	{
+		"name": "bi",
+		"unicode": "3072"
+	},
+	{
+		"name": "pi",
+		"unicode": "3074"
+	},
+	{
+		"name": "u",
+		"unicode": "3046"
+	},
+	{
+		"name": "ku",
+		"unicode": "304F"
+	},
+	{
+		"name": "su",
+		"unicode": "3059"
+	},
+	{
+		"name": "tsu",
+		"unicode": "3064"
+	},
+	{
+		"name": "nu",
+		"unicode": "306C"
+	},
+	{
+		"name": "fu",
+		"unicode": "3075"
+	},
+	{
+		"name": "mu",
+		"unicode": "3080"
+	},
+	{
+		"name": "yu",
+		"unicode": "3086"
+	},
+	{
+		"name": "ru",
+		"unicode": "308B"
+	},
+	{
+		"name": "gu",
+		"unicode": "3050"
+	},
+	{
+		"name": "zu",
+		"unicode": "305A"
+	},
+	{
+		"name": "du",
+		"unicode": "3065"
+	},
+	{
+		"name": "bu",
+		"unicode": "3076"
+	},
+	{
+		"name": "pu",
+		"unicode": "3077"
+	},
+	{
+		"name": "e",
+		"unicode": "3048"
+	},
+	{
+		"name": "ke",
+		"unicode": "3051"
+	},
+	{
+		"name": "se",
+		"unicode": "305B"
+	},
+	{
+		"name": "te",
+		"unicode": "3066"
+	},
+	{
+		"name": "ne",
+		"unicode": "306D"
+	},
+	{
+		"name": "he",
+		"unicode": "3078"
+	},
+	{
+		"name": "me",
+		"unicode": "3081"
+	},
+	{
+		"name": "re",
+		"unicode": "308C"
+	},
+	{
+		"name": "ge",
+		"unicode": "3052"
+	},
+	{
+		"name": "ze",
+		"unicode": "3067"
+	},
+	{
+		"name": "de",
+		"unicode": "3067"
+	},
+	{
+		"name": "be",
+		"unicode": "3079"
+	},
+	{
+		"name": "pe",
+		"unicode": "307A"
+	},
+	{
+		"name": "o",
+		"unicode": "304A"
+	},
+	{
+		"name": "ko",
+		"unicode": "3053"
+	},
+	{
+		"name": "so",
+		"unicode": "305D"
+	},
+	{
+		"name": "to",
+		"unicode": "3068"
+	},
+	{
+		"name": "no",
+		"unicode": "306E"
+	},
+	{
+		"name": "ho",
+		"unicode": "307B"
+	},
+	{
+		"name": "mo",
+		"unicode": "3082"
+	},
+	{
+		"name": "yo",
+		"unicode": "3088"
+	},
+	{
+		"name": "ro",
+		"unicode": "308D"
+	},
+	{
+		"name": "wo",
+		"unicode": "3092"
+	},
+	{
+		"name": "go",
+		"unicode": "3054"
+	},
+	{
+		"name": "zo",
+		"unicode": "305E"
+	},
+	{
+		"name": "do",
+		"unicode": "3069"
+	},
+	{
+		"name": "bo",
+		"unicode": "307C"
+	},
+	{
+		"name": "po",
+		"unicode": "307D"
+	}
+]
