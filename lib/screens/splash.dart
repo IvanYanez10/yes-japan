@@ -42,10 +42,10 @@ class _SplashState extends State<Splash> {
 
 /*
 AspectRatio(
-            aspectRatio: 16/9,
-            child:
-            Image(
-              image: AssetImage('assets/argon-216-1.png'),
-            )
-        )
+  aspectRatio: 16/9,
+  child:
+  Image(
+    image: AssetImage('assets/argon-216-1.png'),
+  )
+)
  */

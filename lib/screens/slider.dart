@@ -43,4 +43,3 @@ class _SliderState extends State<SliderScreen> {
     );
   }
 }
-//    \' \n \t   " \" "

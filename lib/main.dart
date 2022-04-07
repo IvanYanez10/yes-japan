@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -22,8 +23,8 @@ class MyApp extends StatelessWidget {
 
 /*
 routes: {
-        '/splash': (ctx) => const Splash(),
-        '/home': (ctx) => const Home(),
-        '/slider': (ctx) => const Slider(),
-      },
+  '/splash': (ctx) => const Splash(),
+  '/home': (ctx) => const Home(),
+  '/slider': (ctx) => const Slider(),
+},
  */
