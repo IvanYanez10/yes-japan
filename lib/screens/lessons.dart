@@ -22,9 +22,7 @@ class _LessonsState extends State<Lessons> {
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height*0.2,
             child: const Image(
-              image: NetworkImage(
-                  'https://img.freepik.com/vector-gratis/monte-fuji-paisaje-ilustracion-santuario-sintoista-atracciones-turisticas_133188-35.jpg'
-              ),
+              image: AssetImage('assets/images/monte-fuji.png'),
               fit: BoxFit.cover,
             ),
           ),/*
@@ -65,7 +63,7 @@ class _LessonsState extends State<Lessons> {
                             thickness: 2,
                           ),
                         ),
-                        Text('いちいち'),
+                        const Text('いちいち'),
                     ]),
                   )
               ),

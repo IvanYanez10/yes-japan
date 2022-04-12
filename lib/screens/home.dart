@@ -41,48 +41,62 @@ class _HomeState extends State<Home> {
     var widthScreen = MediaQuery.of(context).size.width * 0.8;
     return Scaffold(
       drawer: Drawer(
-        child: Container(
-          color: Colors.white,
-          child: Column(
-            children: [
-              TextButton(
-                style: TextButton.styleFrom(
-                  textStyle: const TextStyle(fontSize: 20),
-                ),
-                onPressed: () {},
-                child: const Text('Tamaño de letra'),
-              ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  textStyle: const TextStyle(fontSize: 20),
-                ),
-                onPressed: () {},
-                child: const Text('Idioma'),
-              ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  textStyle: const TextStyle(fontSize: 20),
-                ),
-                onPressed: () {},
-                child: const Text('Examen'),
-              ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  textStyle: const TextStyle(fontSize: 20),
-                ),
-                onPressed: () {},
-                child: const Text('Flash cards'),
-              ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  textStyle: const TextStyle(fontSize: 20),
-                ),
-                onPressed: () {},
-                child: const Text('Ayuda'),
-              ),
-            ],
-          ),
-        ),
+        child: SafeArea(
+          child: Container(
+              color: Colors.white,
+              child: Column(
+                  children: [
+                    TextButton(
+                      style: TextButton.styleFrom(
+                        textStyle: const TextStyle(fontSize: 20),
+                      ),
+                      onPressed: () {},
+                      child: const Text(
+                        'Tamaño de letra',
+                        textAlign: TextAlign.left,
+                      ),
+                    ),
+                    TextButton(
+                      style: TextButton.styleFrom(
+                        textStyle: const TextStyle(fontSize: 20),
+                      ),
+                      onPressed: () {},
+                      child: const Text(
+                        'Idioma',
+                        textAlign: TextAlign.left,
+                      ),
+                    ),
+                    TextButton(
+                      style: TextButton.styleFrom(
+                        textStyle: const TextStyle(fontSize: 20),
+                      ),
+                      onPressed: () {},
+                      child: const Text(
+                        'Examen',
+                        textAlign: TextAlign.left,),
+                    ),
+                    TextButton(
+                      style: TextButton.styleFrom(
+                        textStyle: const TextStyle(fontSize: 20),
+                      ),
+                      onPressed: () {},
+                      child: const Text(
+                        'Flash cards',
+                        textAlign: TextAlign.left,),
+                    ),
+                    TextButton(
+                      style: TextButton.styleFrom(
+                        textStyle: const TextStyle(fontSize: 20),
+                      ),
+                      onPressed: () {},
+                      child: const Text(
+                        'Ayuda',
+                        textAlign: TextAlign.left,),
+                    )
+                  ]
+              )
+          )
+        )
       ),
       appBar: AppBar(
         backgroundColor: Colors.transparent,
@@ -121,9 +135,7 @@ class _HomeState extends State<Home> {
                 Colors.black.withOpacity(0.1),
                 BlendMode.dstATop
               ),
-              image: const NetworkImage(
-                'https://previews.123rf.com/images/viktorijareut/viktorijareut1709/viktorijareut170900225/86537732-silhouette-of-japan-map.jpg'
-              )
+              image: const AssetImage('assets/images/silueta-japon.png')
             ),
           ),
           child: Column(
@@ -140,9 +152,7 @@ class _HomeState extends State<Home> {
                       child:  const CircleAvatar(
                         radius: 80.0,
                         backgroundImage:
-                          NetworkImage(
-                              'https://img.freepik.com/vector-gratis/monte-fuji-paisaje-ilustracion-santuario-sintoista-atracciones-turisticas_133188-35.jpg'
-                          ),
+                          AssetImage('assets/images/monte-fuji.png'),
                         backgroundColor: Colors.transparent,
                       ),
                     ),

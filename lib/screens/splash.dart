@@ -28,12 +28,11 @@ class _SplashState extends State<Splash> {
     return const Scaffold(
       backgroundColor: Colors.white,
       body: Center(
-        child: Text(
-          'Yes, Japan!',
-          style: TextStyle(
-              fontWeight: FontWeight.bold
-          ),
-        ),
+        child: Image(
+            image: AssetImage(
+                'assets/images/logo-splash.png'
+            )
+        )
       ),
     );
   }
