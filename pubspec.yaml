@@ -37,9 +37,12 @@ flutter:
     - assets/hiragana.json
     - assets/kanjis.json
     - assets/sabias_que.json
+    - assets/hiragana_lessons.json
+    - assets/katakana_lessons.json
     - assets/images/monte-fuji.png
     - assets/images/silueta-japon.png
     - assets/images/logo-splash.png
+    - assets/images/sea.png
 
   uses-material-design: true
 

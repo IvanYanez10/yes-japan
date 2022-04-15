@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.yes.japan.yes_japan">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="Yes Japan!"
         android:icon="@mipmap/ic_launcher">

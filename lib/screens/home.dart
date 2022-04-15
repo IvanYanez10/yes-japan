@@ -162,7 +162,7 @@ class _HomeState extends State<Home> {
                     child: Text('¿Que quieres aprender hoy?')
                   ),
                   ElevatedButton(
-                    onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (ctx)=> const Lessons())),
+                    onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (ctx)=> const Lessons('hiragana'))),
                     child: const Text(
                     'Hiragana',
                     textAlign: TextAlign.center,
@@ -182,7 +182,7 @@ class _HomeState extends State<Home> {
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 20),
                     child: ElevatedButton(
-                      onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (ctx)=> const Lessons())),
+                      onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (ctx)=> const Lessons('katakana'))),
                       child: const Text(
                       'Katakana',
                       textAlign: TextAlign.center,
