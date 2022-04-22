@@ -1,11 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import 'home.dart';
+import 'home_screen.dart';
 
 class Splash extends StatefulWidget {
   const Splash({Key? key}) : super(key: key);
-
   @override
   State<Splash> createState() => _SplashState();
 }
@@ -14,15 +12,12 @@ class _SplashState extends State<Splash> {
   @override
   void initState(){
     super.initState();
-    _navigatetohome();
+    _navigateToHome();
   }
-
-  _navigatetohome()async{
-    await Future.delayed(const Duration(milliseconds: 2000), (){});
-    // preferences save first init
+  _navigateToHome()async{
+    await Future.delayed(const Duration(milliseconds: 1500));
     Navigator.pushReplacement(context, MaterialPageRoute(builder: (ctx)=> const Home()));
   }
-
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
@@ -37,14 +32,3 @@ class _SplashState extends State<Splash> {
     );
   }
 }
-
-
-/*
-AspectRatio(
-  aspectRatio: 16/9,
-  child:
-  Image(
-    image: AssetImage('assets/argon-216-1.png'),
-  )
-)
- */

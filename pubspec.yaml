@@ -40,6 +40,7 @@ flutter:
     - assets/hiragana_lessons.json
     - assets/katakana_lessons.json
     - assets/images/monte-fuji.png
+    - assets/images/monte-edt.png
     - assets/images/silueta-japon.png
     - assets/images/logo-splash.png
     - assets/images/sea.png

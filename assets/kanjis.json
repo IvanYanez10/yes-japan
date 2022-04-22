@@ -26,5 +26,516 @@
     "rom": "shi",
     "eng": "four",
     "spa": "cuatro"
+  },
+  {
+    "kan": "五",
+    "hir": "ご",
+    "rom": "go",
+    "eng": "five",
+    "spa": "cinco"
+  },
+  {
+    "kan": "六",
+    "hir": "ろく",
+    "rom": "roku",
+    "eng": "six",
+    "spa": "seis"
+  },
+  {
+    "kan": "七",
+    "hir": "しち",
+    "rom": "shichi",
+    "eng": "seven",
+    "spa": "siete"
+  },
+  {
+    "kan": "八",
+    "hir": "はち",
+    "rom": "hachi",
+    "eng": "eight",
+    "spa": "ocho"
+  },
+  {
+    "kan": "九",
+    "hir": "きゅう",
+    "rom": "kyuu",
+    "eng": "nine",
+    "spa": "nueve"
+  },
+  {
+    "kan": "十",
+    "hir": "じゅう",
+    "rom": "jyuu",
+    "eng": "ten",
+    "spa": "diez"
+  },
+  {
+    "kan": "百",
+    "hir": "ひゃく",
+    "rom": "hyaku",
+    "eng": "hundred",
+    "spa": "cien"
+  },
+  {
+    "kan": "千",
+    "hir": "せん",
+    "rom": "sen",
+    "eng": "thousand",
+    "spa": "mil"
+  },
+  {
+    "kan": "日",
+    "hir": "にち",
+    "rom": "nichi",
+    "eng": "day",
+    "spa": "día"
+  },
+  {
+    "kan": "月",
+    "hir": "つき",
+    "rom": "tsuki",
+    "eng": "moon",
+    "spa": "luna"
+  },
+  {
+    "kan": "火",
+    "hir": "ひ",
+    "rom": "hi",
+    "eng": "fire",
+    "spa": "fuego"
+  },
+  {
+    "kan": "水",
+    "hir": "みず",
+    "rom": "mizu",
+    "eng": "water",
+    "spa": "agua"
+  },
+  {
+    "kan": "木",
+    "hir": "き",
+    "rom": "ki",
+    "eng": "tree",
+    "spa": "árbol"
+  },
+  {
+    "kan": "金",
+    "hir": "きん",
+    "rom": "kin",
+    "eng": "gold",
+    "spa": "oro"
+  },
+  {
+    "kan": "土",
+    "hir": "つち",
+    "rom": "tsuchi",
+    "eng": "ground",
+    "spa": "suelo"
+  },
+  {
+    "kan": "山",
+    "hir": "やま",
+    "rom": "yama",
+    "eng": "mountain",
+    "spa": "montaña"
+  },
+  {
+    "kan": "川",
+    "hir": "かわ",
+    "rom": "kawa",
+    "eng": "river",
+    "spa": "río"
+  },
+  {
+    "kan": "子",
+    "hir": "こ",
+    "rom": "ko",
+    "eng": "child",
+    "spa": "niño"
+  },
+  {
+    "kan": "本",
+    "hir": "ほん",
+    "rom": "hon",
+    "eng": "book",
+    "spa": "libro"
+  },
+  {
+    "kan": "石",
+    "hir": "いし",
+    "rom": "ishi",
+    "eng": "stone",
+    "spa": "roca"
+  },
+  {
+    "kan": "田",
+    "hir": "た",
+    "rom": "ta",
+    "eng": "rice field",
+    "spa": "campo de arroz"
+  },
+  {
+    "kan": "天",
+    "hir": "てん",
+    "rom": "ten",
+    "eng": "heaven",
+    "spa": "paraíso"
+  },
+  {
+    "kan": "気",
+    "hir": "き",
+    "rom": "ki",
+    "eng": "spirit",
+    "spa": "espíritu"
+  },
+  {
+    "kan": "空",
+    "hir": "そら",
+    "rom": "sora",
+    "eng": "sky",
+    "spa": "cielo"
+  },
+  {
+    "kan": "雨",
+    "hir": "あめ",
+    "rom": "ame",
+    "eng": "rain",
+    "spa": "lluvia"
+  },
+  {
+    "kan": "花",
+    "hir": "はな",
+    "rom": "hana",
+    "eng": "flower",
+    "spa": "flor"
+  },
+  {
+    "kan": "草",
+    "hir": "くさ",
+    "rom": "kusa",
+    "eng": "grass",
+    "spa": "césped"
+  },
+  {
+    "kan": "林",
+    "hir": "はやし",
+    "rom": "hayashi",
+    "eng": "grove",
+    "spa": "arboleda"
+  },
+  {
+    "kan": "森",
+    "hir": "もり",
+    "rom": "mori",
+    "eng": "forest",
+    "spa": "bosque"
+  },
+  {
+    "kan": "竹",
+    "hir": "たけ",
+    "rom": "take",
+    "eng": "bamboo",
+    "spa": "bambú"
+  },
+  {
+    "kan": "虫",
+    "hir": "むし",
+    "rom": "mushi",
+    "eng": "insect",
+    "spa": "insecto"
+  },
+  {
+    "kan": "貝",
+    "hir": "かい",
+    "rom": "kai",
+    "eng": "shellfish",
+    "spa": "almeja"
+  },
+  {
+    "kan": "犬",
+    "hir": "いぬ",
+    "rom": "inu",
+    "eng": "dog",
+    "spa": "perro"
+  },
+  {
+    "kan": "大",
+    "hir": "おおきい",
+    "rom": "ookii",
+    "eng": "big",
+    "spa": "grande"
+  },
+  {
+    "kan": "中",
+    "hir": "なか",
+    "rom": "naka",
+    "eng": "inside",
+    "spa": "dentro"
+  },
+  {
+    "kan": "小",
+    "hir": "ちいさい",
+    "rom": "chiisai",
+    "eng": "small",
+    "spa": "pequeño"
+  },
+  {
+    "kan": "上",
+    "hir": "うえ",
+    "rom": "ue",
+    "eng": "above",
+    "spa": "encima"
+  },
+  {
+    "kan": "下",
+    "hir": "した",
+    "rom": "shita",
+    "eng": "below",
+    "spa": "debajo"
+  },
+  {
+    "kan": "左",
+    "hir": "ひだり",
+    "rom": "hidari",
+    "eng": "left",
+    "spa": "izquierda"
+  },
+  {
+    "kan": "右",
+    "hir": "みぎ",
+    "rom": "migi",
+    "eng": "right",
+    "spa": "derecha"
+  },
+  {
+    "kan": "男",
+    "hir": "おとこ",
+    "rom": "otoko",
+    "eng": "man",
+    "spa": "hombre"
+  },
+  {
+    "kan": "女",
+    "hir": "おんな",
+    "rom": "onna",
+    "eng": "woman",
+    "spa": "mujer"
+  },
+  {
+    "kan": "人",
+    "hir": "ひと",
+    "rom": "hito",
+    "eng": "person",
+    "spa": "persona"
+  },
+  {
+    "kan": "目",
+    "hir": "め",
+    "rom": "me",
+    "eng": "eye",
+    "spa": "ojo"
+  },
+  {
+    "kan": "耳",
+    "hir": "みみ",
+    "rom": "mimi",
+    "eng": "ear",
+    "spa": "oreja"
+  },
+  {
+    "kan": "口",
+    "hir": "くち",
+    "rom": "kuchi",
+    "eng": "mouth",
+    "spa": "boca"
+  },
+  {
+    "kan": "手",
+    "hir": "て",
+    "rom": "te",
+    "eng": "hand",
+    "spa": "boca"
+  },
+  {
+    "kan": "足",
+    "hir": "あし",
+    "rom": "ashi",
+    "eng": "leg",
+    "spa": "pierna"
+  },
+  {
+    "kan": "力",
+    "hir": "ちから",
+    "rom": "chikara",
+    "eng": "power",
+    "spa": "poder"
+  },
+  {
+    "kan": "学",
+    "hir": "がく",
+    "rom": "gaku",
+    "eng": "learning",
+    "spa": "estudiar"
+  },
+  {
+    "kan": "校",
+    "hir": "こう",
+    "rom": "kou",
+    "eng": "school",
+    "spa": "escuela"
+  },
+  {
+    "kan": "年",
+    "hir": "とし",
+    "rom": "toshi",
+    "eng": "year",
+    "spa": "año"
+  },
+  {
+    "kan": "生",
+    "hir": "なま",
+    "rom": "nama",
+    "eng": "raw",
+    "spa": "crudo"
+  },
+  {
+    "kan": "先",
+    "hir": "さき",
+    "rom": "saki",
+    "eng": "ahead",
+    "spa": "delante"
+  },
+  {
+    "kan": "文",
+    "hir": "ぶん",
+    "rom": "bun",
+    "eng": "sentence",
+    "spa": "oración"
+  },
+  {
+    "kan": "字",
+    "hir": "じ",
+    "rom": "ji",
+    "eng": "character",
+    "spa": "caracter"
+  },
+  {
+    "kan": "名",
+    "hir": "な",
+    "rom": "na",
+    "eng": "name",
+    "spa": "nombre"
+  },
+  {
+    "kan": "正",
+    "hir": "ただしい",
+    "rom": "tadashii",
+    "eng": "correct",
+    "spa": "correcto"
+  },
+  {
+    "kan": "赤",
+    "hir": "あか",
+    "rom": "aka",
+    "eng": "red",
+    "spa": "rojo"
+  },
+  {
+    "kan": "白",
+    "hir": "しろ",
+    "rom": "shiro",
+    "eng": "white",
+    "spa": "blanco"
+  },
+  {
+    "kan": "青",
+    "hir": "あお",
+    "rom": "ao",
+    "eng": "blue",
+    "spa": "azul"
+  },
+  {
+    "kan": "入",
+    "hir": "はいる",
+    "rom": "hairu",
+    "eng": "entering",
+    "spa": "entrar"
+  },
+  {
+    "kan": "出",
+    "hir": "でる",
+    "rom": "deru",
+    "eng": "go out",
+    "spa": "salir"
+  },
+  {
+    "kan": "立",
+    "hir": "たつ",
+    "rom": "tatsu",
+    "eng": "to stand",
+    "spa": "levantarse"
+  },
+  {
+    "kan": "休",
+    "hir": "やすむ",
+    "rom": "yasumu",
+    "eng": "to rest",
+    "spa": "descansar"
+  },
+  {
+    "kan": "見",
+    "hir": "みる",
+    "rom": "miru",
+    "eng": "seeing",
+    "spa": "ver"
+  },
+  {
+    "kan": "王",
+    "hir": "おう",
+    "rom": "ou",
+    "eng": "king",
+    "spa": "rey"
+  },
+  {
+    "kan": "糸",
+    "hir": "いと",
+    "rom": "ito",
+    "eng": "thread",
+    "spa": "hilo"
+  },
+  {
+    "kan": "車",
+    "hir": "くるま",
+    "rom": "kuruma",
+    "eng": "car",
+    "spa": "coche"
+  },
+  {
+    "kan": "音",
+    "hir": "おと",
+    "rom": "oto",
+    "eng": "sound",
+    "spa": "sonido"
+  },
+  {
+    "kan": "町",
+    "hir": "まち",
+    "rom": "machi",
+    "eng": "town",
+    "spa": "pueblo"
+  },
+  {
+    "kan": "村",
+    "hir": "むら",
+    "rom": "mura",
+    "eng": "village",
+    "spa": "aldea"
+  },
+  {
+    "kan": "夕",
+    "hir": "ゆう",
+    "rom": "yuu",
+    "eng": "evening",
+    "spa": "tarde"
   }
 ]

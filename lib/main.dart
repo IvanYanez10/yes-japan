@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:yes_japan/screens/splash.dart';
+import 'package:yes_japan/screens/start/splash_screen.dart';
+import 'package:yes_japan/theme/custom_theme.dart';
 
 void main() {
   runApp(const MyApp());
 }
-
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
@@ -12,19 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: CustomTheme.lightTheme,
       home: const Splash(),
-
     );
   }
 }
-
-/*
-routes: {
-  '/splash': (ctx) => const Splash(),
-  '/home': (ctx) => const Home(),
-  '/slider': (ctx) => const Slider(),
-},
- */
