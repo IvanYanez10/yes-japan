@@ -9,6 +9,8 @@ class Test extends StatefulWidget {
 
 class _TestState extends State<Test> {
 
+  bool initiated = false;
+
   late OverlayEntry overlayEntry;
 
   showOverlay(BuildContext context) {
@@ -20,6 +22,7 @@ class _TestState extends State<Test> {
           child: ElevatedButton(
             onPressed: () {
               overlayEntry.remove();
+              initiated=true;
             },
             child: const Text("INICIAR")
           )
@@ -30,12 +33,10 @@ class _TestState extends State<Test> {
   }
 
   @override
-  void initState() {
-    super.initState();
-  }
-
-  @override
   Widget build(BuildContext context) {
+    Future.delayed(const Duration(milliseconds: 1), () {
+      showOverlay(context);
+    });
     return WillPopScope(
       onWillPop: () async {
         bool willLeave = false;

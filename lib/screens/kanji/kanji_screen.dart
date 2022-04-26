@@ -95,8 +95,8 @@ class _KanjiHomeState extends State<KanjiHome> {
                           PageRouteBuilder(
                             pageBuilder: (c, a1, a2) => const Test(),
                             transitionsBuilder: (c, anim, a2, child) => FadeTransition(opacity: anim, child: child),
-                            transitionDuration: const Duration(milliseconds: 0),
-                            reverseTransitionDuration: const Duration(milliseconds: 0),
+                            transitionDuration: const Duration(milliseconds: 50),
+                            reverseTransitionDuration: const Duration(milliseconds: 50),
                           ),
                         ),
                         child: Text(
