@@ -34,15 +34,7 @@ class _HomeButtonsState extends State<HomeButtons> {
     }
     return Column(
       children: [
-        Padding(
-          padding: EdgeInsets.symmetric(vertical: paddingCircleIcon), //20
-          child: const CircleAvatar(
-            radius: 80.0,
-            backgroundImage:
-            AssetImage('assets/images/monte-fuji.png'),
-            backgroundColor: Colors.transparent,
-          ),
-        ),
+
         ElevatedButton(
             onPressed: () => Navigator.push(
               context,
