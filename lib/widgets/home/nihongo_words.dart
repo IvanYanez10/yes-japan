@@ -5,20 +5,20 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class DidYouKnow extends StatefulWidget {
-  const DidYouKnow({Key? key}) : super(key: key);
+class NihongoWords extends StatefulWidget {
+  const NihongoWords({Key? key}) : super(key: key);
   @override
-  State<DidYouKnow> createState() => _DidYouKnowState();
+  State<NihongoWords> createState() => _NihongoWordsState();
 }
 
-class _DidYouKnowState extends State<DidYouKnow> {
+class _NihongoWordsState extends State<NihongoWords> {
   late String path;
   bool change=false;
   late List facts;
   String fact = '';
 
   Future loadJsonData() async {
-    var jsonText = await rootBundle.loadString("assets/sabias_que.json");
+    var jsonText = await rootBundle.loadString("assets/nihongo_words.json");
     facts = json.decode(jsonText);
     var rnd = Random().nextInt(facts.length);
     setState(() {
@@ -47,11 +47,11 @@ class _DidYouKnowState extends State<DidYouKnow> {
                           Padding(
                             padding: const EdgeInsets.only(bottom: 8),
                             child: Text(
-                              'Sabías que...',
+                              'Palabra',
                               textAlign: TextAlign.center,
                               style: TextStyle(
-                                color: Theme.of(context).primaryColor,
-                                fontWeight: FontWeight.bold
+                                  color: Theme.of(context).primaryColor,
+                                  fontWeight: FontWeight.bold
                               ),
                             ),
                           ),

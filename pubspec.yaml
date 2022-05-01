@@ -37,6 +37,7 @@ flutter:
     - assets/hiragana.json
     - assets/kanjis.json
     - assets/sabias_que.json
+    - assets/nihongo_words.json
     - assets/hiragana_lessons.json
     - assets/katakana_lessons.json
     - assets/images/monte-fuji.png
