@@ -14,7 +14,6 @@ class HomeButtons extends StatefulWidget {
 class _HomeButtonsState extends State<HomeButtons> {
   @override
   Widget build(BuildContext context) {
-    //TODO: get and set width and height screen
     double fontSizeByWidth=25;
     double paddingSpaceButtons=20;
     double paddingCircleIcon=50;

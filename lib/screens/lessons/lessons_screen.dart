@@ -11,9 +11,15 @@ class Lessons extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          icon: const Icon(Icons.chevron_left),
+        ),
+        backgroundColor: const Color(0xFF70479E),
         centerTitle: true,
-        backgroundColor:  Theme.of(context).primaryColor,
-        title: Text('Lecciones ${topic}',
+        title: Text('Lecciones $topic',
           style: Theme.of(context).textTheme.headline1,
         ),
       ),

@@ -60,7 +60,15 @@ class _LessonsListState extends State<LessonsList> {
                 children: [ //item composition
                   GestureDetector(
                     behavior: HitTestBehavior.opaque,
-                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (ctx) => Lesson(lesson: i+1))),
+                    onTap: () => Navigator.push(
+                      context,
+                      PageRouteBuilder(
+                        pageBuilder: (c, a1, a2) => Lesson(lesson: i+1),
+                        transitionsBuilder: (c, anim, a2, child) => FadeTransition(opacity: anim, child: child),
+                        transitionDuration: const Duration(milliseconds: 50),
+                        reverseTransitionDuration: const Duration(milliseconds: 50),
+                      ),
+                    ),
                     child: SizedBox(
                       height: heightItem,
                       child: Column(

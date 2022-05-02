@@ -14,7 +14,14 @@ class _LessonState extends State<Lesson> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color(0xFF9475B6),
+        leading: IconButton(
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          icon: const Icon(Icons.chevron_left),
+        ),
+        backgroundColor: const Color(0xFF70479E),
+        centerTitle: true,
         title: Text('Lección ${widget.lesson}'),
       ),
       body: Container(

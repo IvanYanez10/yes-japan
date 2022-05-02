@@ -12,7 +12,7 @@ class _ChooseState extends State<Choose> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color(0xFF9475B6),
+        backgroundColor: const Color(0xFF70479E),
         title: const Text('Demuestra lo que sabes'),
       ),
       body: Container(
